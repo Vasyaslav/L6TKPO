@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|d:\\education\\5\\\u0442\u043A\u043F\u043E\\6\\mvc\\mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|solutionrelative:mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25F61933-5D5C-425E-A02E-561BC4F2D6F6}|MVCLibrary\\MVCLibrary.csproj|d:\\education\\5\\\u0442\u043A\u043F\u043E\\6\\mvc\\mvclibrary\\elevatorlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25F61933-5D5C-425E-A02E-561BC4F2D6F6}|MVCLibrary\\MVCLibrary.csproj|solutionrelative:mvclibrary\\elevatorlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|d:\\education\\5\\\u0442\u043A\u043F\u043E\\6\\mvc\\mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|solutionrelative:mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,18 +21,49 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 170,
+          "DockedWidth": 204,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Form1.cs",
+              "RelativeDocumentMoniker": "MVCWFA\\Form1.cs",
+              "ToolTip": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MVCWFA\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T20:18:28.178Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Form1.cs",
+              "RelativeDocumentMoniker": "MVCWFA\\Form1.cs",
+              "ToolTip": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Form1.cs",
+              "RelativeToolTip": "MVCWFA\\Form1.cs",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAAAP4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T19:26:48.945Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 166,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ElevatorLibrary.cs",
               "DocumentMoniker": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCLibrary\\ElevatorLibrary.cs",
               "RelativeDocumentMoniker": "MVCLibrary\\ElevatorLibrary.cs",
               "ToolTip": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCLibrary\\ElevatorLibrary.cs",
               "RelativeToolTip": "MVCLibrary\\ElevatorLibrary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAkwI0AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T15:58:38.957Z",
               "EditorCaption": ""

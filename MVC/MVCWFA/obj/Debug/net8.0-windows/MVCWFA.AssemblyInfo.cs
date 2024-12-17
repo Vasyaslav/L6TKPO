@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCWFA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6612aa3a829cb984e4712f6d3950fb2d81a283e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+861b983fca2ff42212ff1a545eae69339121d1a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCWFA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCWFA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

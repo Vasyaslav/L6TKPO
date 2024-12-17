@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace MVCLibrary
 {
-    abstract class Observer
+    public abstract class Observer
     {
-        public abstract void Update();
+        public abstract void Update(string newData);
     }
 
-    abstract class Observable
+    public abstract class Observable
     {
         protected List<Observer> _observers = new List<Observer>();
         
@@ -20,23 +20,23 @@ namespace MVCLibrary
         {
             _observers.Add(observer);
         }
-        public void NotifyUpdate()
+        public void NotifyUpdate(string newData)
         {
             int size = _observers.Count; 
             for (int i = 0; i < size; i++)
             {
-                _observers[i].Update();
+                _observers[i].Update(newData);
             }
         }
     }
 
-    abstract class State
+    public abstract class State
     {
         public string name { get; protected set; }
         public abstract string Handle(ElevatorModel e);
     }
 
-    class Peace:  State
+    public class Peace:  State
 	{
 	public Peace()
         {
@@ -44,35 +44,73 @@ namespace MVCLibrary
         }
     public override string Handle(ElevatorModel e)
         {
-            return "12";
+            if (e.next_floor == e.floor)
+            {
+                return "Текущий этаж совпадает со следующим, лифт остаётся в покое\n";
+            }
+            else if (e.mass > e.max_mass && e.powerShortageChance > 50)
+            {
+                return e.SetState(new Breakdown(),
+                    "Авария: лифт перегружен, высокий риск отключения питания");
+            }
+            else if (e.mass > e.max_mass)
+            {
+                return e.SetState(new Overloaded(),
+                    "Лифт перегружен, слишком много людей");
+            }
+            else if (e.powerShortageChance > 50)
+            {
+                return e.SetState(new PowerShortage(),
+                    "Слишком высокий риск отключения питания");
+            }
+            return e.SetState(new Moving(),
+                "Всё в порядке, нажмите кнопку ещё раз, чтобы доехать до нужного этажа");
         }
 	}
 
-    class Moving: State
+    public class Moving: State
     {
         public Moving()
         {
-            name = "Движение";
+            name = "В движении";
         }
         public override string Handle(ElevatorModel e)
         {
-            return "12";
+            if (e.powerShortageChance > 50)
+            {
+                e.SetState(new PowerShortage(), "Слишком высокий риск отключения питания");
+            }
+            e.ChangeFloor();
+            return e.SetState(new Peace(), "Лифт успешно доехал");
         }
     }
 
-    class Overloaded: State
+    public class Overloaded: State
     {
         public Overloaded()
         {
-            name = "Перегружен";
+            name = "Лифт перегружен";
         }
         public override string Handle(ElevatorModel e)
         {
-            return "12";
+            if (e.mass > e.max_mass && e.powerShortageChance > 50)
+            {
+                return e.SetState(new Breakdown(),
+                    "Авария: лифт перегружен, высокий риск отключения питания");
+            }
+            else if (e.mass > e.max_mass)
+            {
+                return "Лифт перегружен, движение невозможно\n";
+            }
+            else if (e.powerShortageChance > 50)
+            {
+                e.SetState(new PowerShortage(), "Слишком высокий риск отключения питания");
+            }
+            return e.SetState(new Peace(), "Лифт больше не перегружен");
         }
     }
 
-    class PowerShortage: State
+    public class PowerShortage: State
     {
         public PowerShortage()
         {
@@ -80,30 +118,39 @@ namespace MVCLibrary
         }
         public override string Handle(ElevatorModel e)
         {
-            return "12";
+            if (e.powerShortageChance > 20)
+            {
+                return "Убавьте риск отключения питания ниже 20%\n";
+            }
+            return e.SetState(new Peace(), "Риск отключения питания стал ниже 20%");
         }
     }
 
-    class Breakdown: State
+    public class Breakdown: State
     {
         public Breakdown()
         {
-            name = "Авария";
+            name = "Аварийное состояние";
         }
         public override string Handle(ElevatorModel e)
         {
-            return "12";
+            if (e.mass == 0 && e.powerShortageChance < 20)
+            {
+                return e.SetState(new Peace(),
+                    "Риск отключения меньше 20%, выведены люди");
+            }
+            return "Уменьшите риск отключения питания ниже 20% и выведите всех людей из лифта\n";
         }
     }
 
-    class ElevatorModel: Observable
+    public class ElevatorModel: Observable
     {
         public int floor { get; private set; }
         public int next_floor { get; private set; }
         public int max_mass { get; private set; }
         public int mass { get; private set; }
         public int powerShortageChance { get; private set; }
-        private State state;
+        public State state { get; private set; }
         public ElevatorModel()
         {
             floor = 1;
@@ -114,45 +161,51 @@ namespace MVCLibrary
             state = new Peace();
         }
 
-        public void changeFloor()
+        public void ChangeFloor()
         {
             floor = next_floor;
         }
 
-        public void changeNextFloor(int nFloor)
+        public void ChangeNextFloor(int nFloor)
         {
             next_floor = nFloor;
         }
 
-        public void load()
+        public void Load()
         {
             mass += 70;
         }
 
-        public void unload()
+        public void Unload()
         {
-            if (mass >= 70) mass -= 70;
+            mass -= 70;
         }
 
-        public void changePower(int p)
+        public void ChangePower(int p)
         {
             powerShortageChance = p;
         }
 
-        public string move()
+        public string Move()
         {
-            return $"Текущий этаж = {floor}\nТекущая масса = {mass}\nТекущая вероятность отключения электроэнергии = {powerShortageChance}%\n{state.Handle(this)}\n";
+            string moveResult = state.Handle(this);
+            return $"Текущий этаж = {floor}\nТекущая масса = {mass}\nТекущая вероятность отключения электроэнергии = {powerShortageChance}%\nПопытка поехать: {moveResult}\n";
         }
 
-        public string info()
+        public string Info()
         {
             return $"Текущий этаж = {floor}\nТекущая масса = {mass}\nТекущая вероятность отключения электроэнергии = {powerShortageChance}%\nТекущее состояние: {state.name}\n";
         }
 
-        public string setState(State s, string message)
+        public string Info(string str)
+        {
+            return $"Текущий этаж = {floor}\nТекущая масса = {mass}\nТекущая вероятность отключения электроэнергии = {powerShortageChance}%\nТекущее состояние: {str}\n";
+        }
+
+        public string SetState(State s, string message)
         {
             state = s;
-            return $"Состояние изменено: {s.name}\nПричина: {message}\n";
+            return $"состояние изменено: {s.name}, причина: {message}\n";
         }
     }
 }

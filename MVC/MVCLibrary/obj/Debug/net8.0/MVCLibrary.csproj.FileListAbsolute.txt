@@ -1,0 +1,12 @@
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\bin\Debug\net8.0\MVCLibrary.deps.json
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\bin\Debug\net8.0\MVCLibrary.dll
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\bin\Debug\net8.0\MVCLibrary.pdb
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.AssemblyInfoInputs.cache
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.AssemblyInfo.cs
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.csproj.CoreCompileInputs.cache
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.sourcelink.json
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.dll
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\refint\MVCLibrary.dll
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.pdb
+D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\ref\MVCLibrary.dll
