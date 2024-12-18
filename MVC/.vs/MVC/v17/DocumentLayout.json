@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\",
+  "WorkspaceRootPath": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|t:\\educ\\5\\\u0442\u043A\u043F\u043E\\l6tkpo\\mvc\\mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25F61933-5D5C-425E-A02E-561BC4F2D6F6}|MVCLibrary\\MVCLibrary.csproj|d:\\education\\5\\\u0442\u043A\u043F\u043E\\6\\mvc\\mvclibrary\\elevatorlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F61933-5D5C-425E-A02E-561BC4F2D6F6}|MVCLibrary\\MVCLibrary.csproj|solutionrelative:mvclibrary\\elevatorlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|d:\\education\\5\\\u0442\u043A\u043F\u043E\\6\\mvc\\mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|solutionrelative:mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|solutionrelative:mvcwfa\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|t:\\educ\\5\\\u0442\u043A\u043F\u043E\\l6tkpo\\mvc\\mvcwfa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|d:\\education\\5\\\u0442\u043A\u043F\u043E\\6\\mvc\\mvcwfa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB551BA9-DF9E-4660-AD4A-FBC72120A1EA}|MVCWFA\\MVCWFA.csproj|solutionrelative:mvcwfa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F61933-5D5C-425E-A02E-561BC4F2D6F6}|MVCLibrary\\MVCLibrary.csproj|t:\\educ\\5\\\u0442\u043A\u043F\u043E\\l6tkpo\\mvc\\mvclibrary\\elevatorlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F61933-5D5C-425E-A02E-561BC4F2D6F6}|MVCLibrary\\MVCLibrary.csproj|solutionrelative:mvclibrary\\elevatorlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,53 +30,52 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\MVCWFA\\Program.cs",
+              "DocumentMoniker": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Program.cs",
               "RelativeDocumentMoniker": "MVCWFA\\Program.cs",
-              "ToolTip": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\MVCWFA\\Program.cs",
+              "ToolTip": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Program.cs",
               "RelativeToolTip": "MVCWFA\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T06:55:40.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T06:55:40.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ElevatorLibrary.cs",
-              "DocumentMoniker": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\MVCLibrary\\ElevatorLibrary.cs",
-              "RelativeDocumentMoniker": "MVCLibrary\\ElevatorLibrary.cs",
-              "ToolTip": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\MVCLibrary\\ElevatorLibrary.cs",
-              "RelativeToolTip": "MVCLibrary\\ElevatorLibrary.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAowDIAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Form1.cs",
+              "RelativeDocumentMoniker": "MVCWFA\\Form1.cs",
+              "ToolTip": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Form1.cs [Design]",
+              "RelativeToolTip": "MVCWFA\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T06:50:37.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T20:18:28.178Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\MVCWFA\\Form1.cs",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Form1.cs",
               "RelativeDocumentMoniker": "MVCWFA\\Form1.cs",
-              "ToolTip": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\MVCWFA\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "MVCWFA\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "ToolTip": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCWFA\\Form1.cs",
+              "RelativeToolTip": "MVCWFA\\Form1.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAjwBgBAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T20:18:28.178Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2024-12-16T19:26:48.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\MVCWFA\\Form1.cs",
-              "RelativeDocumentMoniker": "MVCWFA\\Form1.cs",
-              "ToolTip": "T:\\educ\\5\\\u0422\u041A\u041F\u041E\\L6TKPO\\MVC\\MVCWFA\\Form1.cs",
-              "RelativeToolTip": "MVCWFA\\Form1.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABQAAAAkAAAAAAAAAA==",
+              "Title": "ElevatorLibrary.cs",
+              "DocumentMoniker": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCLibrary\\ElevatorLibrary.cs",
+              "RelativeDocumentMoniker": "MVCLibrary\\ElevatorLibrary.cs",
+              "ToolTip": "D:\\Education\\5\\\u0422\u041A\u041F\u041E\\6\\MVC\\MVCLibrary\\ElevatorLibrary.cs",
+              "RelativeToolTip": "MVCLibrary\\ElevatorLibrary.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAA6wM8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T19:26:48.945Z",
+              "WhenOpened": "2024-12-18T06:50:37.53Z",
               "EditorCaption": ""
             }
           ]

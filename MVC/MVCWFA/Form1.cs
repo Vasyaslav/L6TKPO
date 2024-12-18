@@ -272,7 +272,7 @@ namespace MVCWFA
         {
             eM.ChangePower(chance);
             GetInfo();
-            MessageBox.Show(eM.powerShortageChance.ToString());
+            //MessageBox.Show(eM.powerShortageChance.ToString());
         }
 
         public void MakeMove(int nFloor)
