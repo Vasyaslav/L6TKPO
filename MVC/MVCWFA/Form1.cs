@@ -4,21 +4,24 @@ namespace MVCWFA
 {
     public partial class Form1 : Form
     {
-        private ElevatorModel eModel;
+        public ElevatorModel eModel;
         private ElevatorController eController;
         private ElevatorView1 eV1;
         private ElevatorView2 eV2;
         private ElevatorView3 eV3;
-        //private ElevatorView3 eV3;
         public Form1()
         {
             InitializeComponent();
 
             this.eModel = new ElevatorModel();
             this.eController = new ElevatorController(eModel);
-            this.eV1 = new ElevatorView1(panelView1, eModel);
-            this.eV2 = new ElevatorView2(panelView2, eModel);
-            this.eV3 = new ElevatorView3(panelView3, eModel);
+            this.eV1 = new ElevatorView1(panelView1);
+            eModel.AddObserver(eV1);
+            this.eV2 = new ElevatorView2(panelView2);
+            eModel.AddObserver(eV2);
+            this.eV3 = new ElevatorView3(panelView3);
+            eModel.AddObserver(eV3);
+            this.Text = "ห่๔๒";
         }
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
@@ -44,13 +47,10 @@ namespace MVCWFA
 
     public class ElevatorView1 : Observer
     {
-        public ElevatorModel eM;
         public RichTextBox ElevatorTextBox;
 
-        public ElevatorView1(Panel panel, ElevatorModel eModel)
+        public ElevatorView1(Panel panel)
         {
-            eM = eModel;
-            eM.AddObserver(this);
             ElevatorTextBox = new RichTextBox();
             ElevatorTextBox.Location = new Point(1, 1);
             ElevatorTextBox.Width = panel.Width - 2;
@@ -65,7 +65,6 @@ namespace MVCWFA
     }
     public class ElevatorView2 : Observer
     {
-        public ElevatorModel eM;
         public Label floorLabel;
         public TextBox floorTextBox;
         public Label massLabel;
@@ -76,11 +75,8 @@ namespace MVCWFA
         public Label stateLabel;
         public RichTextBox stateRichTextBox;
 
-        public ElevatorView2(Panel panel, ElevatorModel eModel)
+        public ElevatorView2(Panel panel)
         {
-
-            eM = eModel;
-            eM.AddObserver(this);
             int controlsWidth = panel.Width - 2;
             int controlsHeight = 20;
             int heightStep = controlsHeight + 4;
@@ -161,7 +157,6 @@ namespace MVCWFA
 
     public class ElevatorView3 : Observer
     {
-        public ElevatorModel eM;
         private Panel panel;
         private Random random;
         public Label floorLabel;
@@ -170,10 +165,8 @@ namespace MVCWFA
         public Label powerShortageLabel2;
         public RichTextBox stateRichTextBox;
 
-        public ElevatorView3(Panel panel, ElevatorModel eModel)
+        public ElevatorView3(Panel panel)
         {
-            eM = eModel;
-            eM.AddObserver(this);
             this.panel = panel;
             this.random = new Random();
 
@@ -230,7 +223,7 @@ namespace MVCWFA
         private Point GetValidLocation(Control control)
         {
             Point location = new Point();
-            location.X = random.Next(panel.Width - control.Width - 2) + 1;
+            //location.X = random.Next(panel.Width - control.Width - 2) + 1;
             location.Y = random.Next(panel.Height - control.Height - 2) + 1;
             return location;
         }

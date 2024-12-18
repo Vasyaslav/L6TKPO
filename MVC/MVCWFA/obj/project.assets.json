@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "D:\\PO\\MicrosoftVisualStudio2022Components\\NuGetPackages": {}
+    "C:\\Users\\Роман\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Education\\5\\ТКПО\\6\\MVC\\MVCWFA\\MVCWFA.csproj",
+      "projectUniqueName": "T:\\educ\\5\\ТКПО\\L6TKPO\\MVC\\MVCWFA\\MVCWFA.csproj",
       "projectName": "MVCWFA",
-      "projectPath": "D:\\Education\\5\\ТКПО\\6\\MVC\\MVCWFA\\MVCWFA.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Education\\5\\ТКПО\\6\\MVC\\MVCWFA\\obj\\",
+      "projectPath": "T:\\educ\\5\\ТКПО\\L6TKPO\\MVC\\MVCWFA\\MVCWFA.csproj",
+      "packagesPath": "C:\\Users\\Роман\\.nuget\\packages\\",
+      "outputPath": "T:\\educ\\5\\ТКПО\\L6TKPO\\MVC\\MVCWFA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\PO\\MicrosoftVisualStudio2022Components\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Роман\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -59,8 +59,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\Education\\5\\ТКПО\\6\\MVC\\MVCLibrary\\MVCLibrary.csproj": {
-              "projectPath": "D:\\Education\\5\\ТКПО\\6\\MVC\\MVCLibrary\\MVCLibrary.csproj"
+            "T:\\educ\\5\\ТКПО\\L6TKPO\\MVC\\MVCLibrary\\MVCLibrary.csproj": {
+              "projectPath": "T:\\educ\\5\\ТКПО\\L6TKPO\\MVC\\MVCLibrary\\MVCLibrary.csproj"
             }
           }
         }
@@ -73,9 +73,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -99,7 +98,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

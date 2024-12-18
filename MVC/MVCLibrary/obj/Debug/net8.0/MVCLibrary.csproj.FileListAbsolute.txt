@@ -10,3 +10,15 @@ D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.dll
 D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\refint\MVCLibrary.dll
 D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.pdb
 D:\Education\5\ТКПО\6\MVC\MVCLibrary\obj\Debug\net8.0\ref\MVCLibrary.dll
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\bin\Debug\net8.0\MVCLibrary.deps.json
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\bin\Debug\net8.0\MVCLibrary.dll
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\bin\Debug\net8.0\MVCLibrary.pdb
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.GeneratedMSBuildEditorConfig.editorconfig
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.AssemblyInfoInputs.cache
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.AssemblyInfo.cs
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.csproj.CoreCompileInputs.cache
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.sourcelink.json
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.dll
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\refint\MVCLibrary.dll
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\MVCLibrary.pdb
+T:\educ\5\ТКПО\L6TKPO\MVC\MVCLibrary\obj\Debug\net8.0\ref\MVCLibrary.dll
